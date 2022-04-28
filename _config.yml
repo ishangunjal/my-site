@@ -41,11 +41,6 @@ plugins:
 defaults:
   -
     scope:
-      path: "pages"
-    values:
-      layout: "page"
-
-    scope:
       path: ""
       type: "posts"
     values:
