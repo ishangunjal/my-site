@@ -13,3 +13,4 @@ Other interests include music (progressive rock/metal, jazz, classical), visual 
 I am currently working on my master's thesis under [Prof. Naveen Surendran](https://iist.ac.in/physics/naveen.surendran) on topological order in spin systems. We are studying exactly solvable spin models which form stabilizer codes and are candidates for synthesizing robust quantum memories. We calculate the topological entanglement entropy, as an indicator for the underlying topological order, and see the behavior at finite temperature. A non-trivially topological ordered system at finite temperature can be used for topological quantum computation.
 
 ## Updates
+May, 2022     -     Joined [DiEM25](https://diem25.org/en/). Read the manifesto [here](https://diem25.org/about-us/)
