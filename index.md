@@ -13,6 +13,8 @@ Other interests include music (progressive rock/metal, jazz, classical), visual 
 I am currently working on my master's thesis under [Prof. Naveen Surendran](https://iist.ac.in/physics/naveen.surendran) on topological order in spin systems. We are studying exactly solvable spin models which form stabilizer codes and are candidates for synthesizing robust quantum memories. We calculate the topological entanglement entropy, as an indicator for the underlying topological order, and see the behavior at finite temperature. A non-trivially topological ordered system at finite temperature can be used for topological quantum computation.
 
 ## Updates
-28 April, 2022    -     Joined [DiEM25](https://diem25.org/en/). Read the manifesto [here](https://diem25.org/about-us/).
-12 May, 2022      -     Attended [Summit at the End of the World](https://www.eventbrite.co.uk/e/summit-at-the-end-of-the-world-tickets-325923153927?keep_tld=1), an event organized by [Progressive International](https://progressive.international/).
-13 May, 2022      -     Attended [Categorical Semantics of Entropy](https://itsatcuny.org/calendar/220513/scse), a workshop organized by CUNY Grad Center in Manhattan. Related [blog post by Baez](https://johncarlosbaez.wordpress.com/2022/04/19/categorical-semantics-of-entropy/).
+\begin{align}
+28 April, 2022    &-     Joined [DiEM25](https://diem25.org/en/). Read the manifesto [here](https://diem25.org/about-us/). \\
+12 May, 2022      &-     Attended [Summit at the End of the World](https://www.eventbrite.co.uk/e/summit-at-the-end-of-the-world-tickets-325923153927?keep_tld=1), an event organized by [Progressive International](https://progressive.international/). \\
+13 May, 2022      &-     Attended [Categorical Semantics of Entropy](https://itsatcuny.org/calendar/220513/scse), a workshop organized by CUNY Grad Center in Manhattan. Related [blog post by Baez](https://johncarlosbaez.wordpress.com/2022/04/19/categorical-semantics-of-entropy/). \\
+\end{align}
