@@ -1,8 +1,8 @@
 ---
-layout: blog_cat
-title: "Fiction"
-permalink: "/books/fiction/"
-category: "fiction"
+layout: blog
+title: Fiction
+permalink: /books/fiction/
+category: fiction
 type: sub_cat_b
 ---
 

@@ -1,8 +1,8 @@
 ---
-layout: blog_cat
-title: "Non-Fiction"
-permalink: "/books/non-fiction/"
-category: "non-fiction"
+layout: blog
+title: Non-Fiction
+permalink: /books/non-fiction/
+category: non-fiction
 type: sub_cat_b
 ---
 

@@ -2,5 +2,6 @@
 layout: blog
 title: Blog
 permalink: /blog/
-type: "main_cat"
+category: blog
+type: main_cat
 ---
