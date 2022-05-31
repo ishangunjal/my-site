@@ -3,5 +3,27 @@ layout: post-anime
 category: media
 title: Sonny Boy
 permalink: /media/sonny-boy.html
-cover: https://cdn-eu.anidb.net/images/main/261500.jpg
+cover: https://cdn.myanimelist.net/images/anime/1509/117149l.jpg
+original-work: Natsume Shingo
+director: Natsume Shingo
+studio: Madhouse
+premiered: Summer 2021
+official-url: https://anime.shochiku.co.jp/sonny-boy/
+anidb: http://anidb.info/perl-bin/animedb.pl?show=anime&aid=16282
+mal: https://myanimelist.net/anime/48849/Sonny_Boy
 ---
+
+
+going 'adrift', as in drifting from reality; reality as described by a set of rules, basic facts, under which everything functions. breaking these existing set of rules, or altering them, defines these 'new worlds' into which these kids are thrown into. what follows is interaction of the 'naive' kids with these new/altered set of rules, with some of the kids having some special 'powers'.
+
+is it an allegory on life, with rules being those of the institutions we participate in, and these powers as percieved by us and those around us giving us some tangible advantage over the rest.
+
+these new worlds give a thematic analysis of such institutions, for eg, mizuho getting filthy rich with nyamazon; the connection really isnt that far fetched. the upside-down world with this capitalist mode of 'un'production and 'un'development, where the workers are shown these dreamy shooting stars, only to find that they mean the end. even the hierarchical structures are upside down, with the few manipulating and ruling over the many; oh, maybe not very different from what we see outside is it!
+
+such thematic analysis can be found throughout really.
+
+infinite number of possibilites, with as much as one hair leading to manifestation of contradicting personas, sou and seiji, in conflict with one another. how can you not worry then of all these possibilities, when the outcomes would so drastically affect ones life? well its precisely because when such a conflict resolves with one side 'killing' the other, metaphorically, maybe an ego death, what remains is just this feeling of emptiness and purposelessness. so maybe this conflict between justifying existence which emerges out of the fact the we do in fact exist, is really a pointless venture?
+
+there are infinite number of possibilities, probabilities, but only the outcomes which are 'possible' will occur. that is to say, you ought not to worry about all the possibilities, and take things at your own pace; our lives are just beginning, what lies ahead will take just a little bit longer.
+
+parallels between going adrift and the themes in 'fireworks', some degree of romanticism towards the rules of 'our' world, with the fireworks not appearing quite right and nagara choosing to come back to the 'reality' he knew, even though things were going to remain just as bad.

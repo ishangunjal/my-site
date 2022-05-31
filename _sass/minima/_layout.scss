@@ -253,3 +253,28 @@
     }
   }
 }
+
+// New shit - sorta like align environment. ref https://stackoverflow.com/questions/22763127/aligning-text-on-a-specific-character
+.align div {
+  display: flex;
+//  background-color: powderblue;
+  width: 150%;
+}
+
+.align div span {
+  flex: 1;
+}
+
+.align div span:first-of-type {
+  text-align: right;
+  padding-right: 10px;
+}
+
+.align div span:last-of-type {
+  padding-left: 10px;
+}
+
+.media-post-header {
+  margin-bottom: $spacing-unit;
+  text-align: center;
+}

@@ -3,21 +3,36 @@ layout: default
 ---
 <article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
 
-  <header class="post-header">
-
+  <header class="media-post-header">
     <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
-
     <p class="post-meta">
-
-    </p>
-
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
   </header>
 
-  <p>
-  <img src= "{{ page.cover }}">
-  </p>
+  <div style="display:inline-block;vertical-align:top;">
+    <img src="{{ page.cover }}" height=400 alt="{{ page.title }}" hspace="20">
+  </div>
 
-  <div class="post-content e-content" itemprop="articleBody">
+  <div style="display:inline-block;">
+    <div class="align">
+      <div> <span style="font-weight:600;">Original Work</span>   - <span>{{ page.original-work }}   </span> </div>
+      <div> <span style="font-weight:600;">Director</span> - <span>{{ page.director }} </span> </div>
+      <div> <span style="font-weight:600;">Studio</span>   - <span>{{ page.studio }}   </span> </div>
+      <div> <span style="font-weight:600;">Premiered</span>- <span>{{ page.premiered }}   </span> </div>
+      <div> <span style="font-weight:600;">External Links</span> - <span><a href={{page.official-url}}>Official</a>, <a href={{page.anidb}}>MAL</a>, <a href={{page.mal}}>AniDB</a></span></div>
+    </div>
+
+<!--    <table cellspacing="0" cellpadding="5" border="0">
+      <tr> <td>Director</td> <td>{{ page.director }}</td></tr>
+      <tr> <td>Studio</td>   <td>{{ page.studio }}</td></tr>
+    </table> -->
+
+  </div>
+
+  <div class="post-content e-content" itemprop="articleBody" style="margin-top:1cm;">
     {{ content }}
   </div>
 

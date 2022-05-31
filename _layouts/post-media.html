@@ -1,3 +1,37 @@
 ---
 layout: default
 ---
+
+<article class="post h-entry" itemscope itemtype="http://schema.org/BlogPosting">
+
+  <header class="media-post-header">
+    <h1 class="post-title p-name" itemprop="name headline">{{ page.title | escape }}</h1>
+    <p class="post-meta">
+      <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
+        {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+        {{ page.date | date: date_format }}
+      </time>
+  </header>
+
+  <div style="display:inline-block;vertical-align:top;">
+    <img src="{{ page.cover }}" height=400 alt="{{ page.title }}" hspace="20">
+  </div>
+
+  <div style="display:inline-block;">
+    <div class="align">
+      <div> <span style="font-weight:600;">Director</span> - <span>{{ page.director }} </span> </div>
+      <div> <span style="font-weight:600;">Runtime</span>   - <span>{{ page.runtime }}   </span> </div>
+      <div> <span style="font-weight:600;">Release</span>   - <span>{{ page.release }}   </span> </div>
+      <div> <span style="font-weight:600;">Genre</span>   - <span>{{ page.genre }}   </span> </div>
+      <div> <span style="font-weight:600;">Cast</span>   - <span>{{ page.cast }}   </span> </div>
+      <div> <span style="font-weight:600;">External Links</span> - <span><a href={{page.imdb}}>IMDb</a>, <a href={{page.wiki}}>Wiki</a></span></div>
+    </div>
+
+  </div>
+
+  <div class="post-content e-content" itemprop="articleBody" style="margin-top:1cm;">
+    {{ content }}
+  </div>
+
+  <a class="u-url" href="{{ page.url | relative_url }}" hidden></a>
+</article>
