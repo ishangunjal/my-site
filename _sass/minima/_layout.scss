@@ -258,7 +258,7 @@
 .align div {
   display: flex;
 //  background-color: powderblue;
-  width: 150%;
+  width: 100%;
 }
 
 .align div span {
@@ -277,4 +277,21 @@
 .media-post-header {
   margin-bottom: $spacing-unit;
   text-align: center;
+}
+
+// two column layout for updates section
+.row {
+  display: flex;
+}
+
+.column {
+  float: left;
+}
+
+.left {
+  width: 120px;
+}
+
+.right {
+  width: 620px;
 }
