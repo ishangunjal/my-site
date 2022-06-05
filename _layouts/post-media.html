@@ -13,18 +13,37 @@ layout: default
       </time>
   </header>
 
-  <div style="display:inline-block;vertical-align:top;">
-    <img src="{{ page.cover }}" width=300 alt="{{ page.title }}" hspace="20">
-  </div>
-
   <div style="display:inline-block;">
-    <div class="align">
-      <div> <span style="font-weight:600;">Director</span> - <span>{{ page.director }} </span> </div>
-      <div> <span style="font-weight:600;">Runtime</span>   - <span>{{ page.runtime }}   </span> </div>
-      <div> <span style="font-weight:600;">Release</span>   - <span>{{ page.release }}   </span> </div>
-      <div> <span style="font-weight:600;">Genre</span>   - <span>{{ page.genre }}   </span> </div>
-      <div> <span style="font-weight:600;">Cast</span>   - <span>{{ page.cast }}   </span> </div>
-      <div> <span style="font-weight:600;">External Links</span> - <span><a href={{page.imdb}}>IMDb</a>, <a href={{page.wiki}}>Wiki</a></span></div>
+  <div class="media_cover"><img src="{{ page.cover }}" width=300 alt="{{ page.title }}" hspace="20"></div>
+  </div><div style="display:inline-block;vertical-align: middle;">
+    <div class="media_row">
+        <div class="media_field">Director</div>
+        <div class="media_value">{{ page.director }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Runtime</div>
+        <div class="media_value">{{ page.runtime }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Release</div>
+        <div class="media_value">{{ page.release }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Genre</div>
+        <div class="media_value">{{ page.genre }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Cast</div>
+        <div class="media_value">{{ page.cast }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">External Links</div>
+        <div class="media_value"><a href={{page.imdb}}>IMDb</a>, <a href={{page.wiki}}>Wiki</a></div>
     </div>
 
   </div>

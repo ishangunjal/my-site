@@ -12,6 +12,7 @@ layout: default
       </time>
   </header>
 
+<!--
   <div style="display:inline-block;vertical-align:top;">
     <img src="{{ page.cover }}" width=300 alt="{{ page.title }}" hspace="20">
   </div>
@@ -24,13 +25,66 @@ layout: default
       <div> <span style="font-weight:600;">Premiered</span>- <span>{{ page.premiered }}   </span> </div>
       <div> <span style="font-weight:600;">External Links</span> - <span><a href={{page.official-url}}>Official</a>, <a href={{page.anidb}}>MAL</a>, <a href={{page.mal}}>AniDB</a></span></div>
     </div>
+  </div>
 
-<!--    <table cellspacing="0" cellpadding="5" border="0">
-      <tr> <td>Director</td> <td>{{ page.director }}</td></tr>
-      <tr> <td>Studio</td>   <td>{{ page.studio }}</td></tr>
-    </table> -->
+  <div class="media_row">
+
+   <div class="media_cover"><img src="{{ page.cover }}" width=300 alt="{{ page.title }}" hspace="20"></div>
+
+   <div class="media_field">
+     <div> <span>Original Work</span></div>
+     <div> <span>Director</span></div>
+     <div> <span>Studio</span></div>
+     <div> <span>Premiered</span></div>
+     <div> <span>External Links</span></div>
+   </div>
+
+   <div class="media_value">
+     <div> <span>{{ page.original-work }}   </span> </div>
+     <div> <span>{{ page.director }} </span> </div>
+     <div> <span>{{ page.studio }}   </span> </div>
+     <div> <span>{{ page.premiered }}   </span> </div>
+     <div> <span><a href={{page.official-url}}>Official</a>, <a href={{page.anidb}}>MAL</a>, <a href={{page.mal}}>AniDB</a></span></div>
+   </div>
 
   </div>
+-->
+
+  <div style="display:inline-block;">
+  <div class="media_cover"><img src="{{ page.cover }}" width=300 alt="{{ page.title }}" hspace="20"></div>
+  </div><div style="display:inline-block;vertical-align: middle;">
+    <div class="media_row">
+        <div class="media_field">Original Work</div>
+        <div class="media_value">{{ page.original-work }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Director</div>
+        <div class="media_value">{{ page.director }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Studio</div>
+        <div class="media_value">{{ page.studio }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Genre</div>
+        <div class="media_value">{{ page.genre }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Premiered</div>
+        <div class="media_value">{{ page.premiered }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">External Links</div>
+        <div class="media_value"><a href={{page.official-url}}>Official</a>, <a href={{page.anidb}}>AniDB</a>, <a href={{page.mal}}>MAL</a></div>
+    </div>
+
+  </div>
+
 
   <div class="post-content e-content" itemprop="articleBody" style="margin-top:1cm;">
     {{ content }}

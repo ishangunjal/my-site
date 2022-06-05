@@ -13,19 +13,33 @@ layout: default
       </time>
   </header>
 
-  <div style="display:inline-block;vertical-align:top;">
-    <img src="{{ page.cover }}" width=300 alt="{{ page.title }}" hspace="20">
-  </div>
-
   <div style="display:inline-block;">
-    <div class="align">
-      <div> <span style="font-weight:600;">Artist</span> - <span>{{ page.artist }} </span> </div>
-      <div> <span style="font-weight:600;">Release</span>   - <span>{{ page.release }}   </span> </div>
-      <div> <span style="font-weight:600;">Genre</span>   - <span>{{ page.genre }}   </span> </div>
-      <div> <span style="font-weight:600;">Length</span>   - <span>{{ page.length }}   </span> </div>
-      <div> <span style="font-weight:600;">External Links</span> - <span><a href={{page.spotify}}>Spotify</a>, <a href={{page.wiki}}>Wiki</a> </span></div>
+    <img src="{{ page.cover }}" width=300 alt="{{ page.title }}" hspace="20">
+  </div><div style="display:inline-block;vertical-align: middle;">
+    <div class="media_row">
+        <div class="media_field">Artist</div>
+        <div class="media_value">{{ page.artist }}</div>
     </div>
 
+    <div class="media_row">
+        <div class="media_field">Release</div>
+        <div class="media_value">{{ page.release }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Genre</div>
+        <div class="media_value">{{ page.genre }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">Length</div>
+        <div class="media_value">{{ page.length }}</div>
+    </div>
+
+    <div class="media_row">
+        <div class="media_field">External Links</div>
+        <div class="media_value"><a href={{page.spotify}}>Spotify</a>, <a href={{page.wiki}}>Wiki</a></div>
+    </div>
   </div>
 
   <div class="post-content e-content" itemprop="articleBody" style="margin-top:1cm;">

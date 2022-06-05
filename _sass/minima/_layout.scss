@@ -280,18 +280,44 @@
 }
 
 // two column layout for updates section
-.row {
+.updates_row {
   display: flex;
+  margin-top: 0.5em
 }
 
-.column {
-  float: left;
+.updates_date {
+  width: 140px;
 }
 
-.left {
-  width: 120px;
+.updates_update {
+  width: 600px;
 }
 
-.right {
-  width: 620px;
+// three column layout for updates section
+.media_row {
+  display: flex
 }
+
+.media_cover {
+  width: 360px;
+  font-weight: 600;
+}
+
+.media_field {
+  width: 140px;
+  font-weight: 600;
+  font-size: 120%;
+}
+
+.media_value {
+  width: 240px;
+  font-size: 120%;
+}
+
+// ugh will have to do tables ): or not hah!
+table, th, td {
+  border-collapse: collapse;
+  border: none;
+}
+
+tr:hover {background-color: coral;}

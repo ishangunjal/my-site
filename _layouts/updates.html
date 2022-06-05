@@ -7,19 +7,26 @@ layout: default
     <h1 class="page-heading">{{ page.title }}</h1>
   {%- endif -%}
 
-<!--
-  <div class="row">
-   <div class="left">28 April, 2022</div>
-   <div class="right">Joined [DiEM25](https://diem25.org/en/). Read the manifesto [here](https://diem25.org/about-us/).</div>
-  </div>
-
-
-//TODO: add a database like functionality for updates - date and update tables, and pull data from there using a loop to display here.
-  -->
-
   <p>
   {{ content }}
   </p>
 
+<!--
+  <div class="updates_row">
+   <div class="updates_left">28 April, 2022</div>
+   <div class="updates_right">Joined [DiEM25](https://diem25.org/en/). Read the manifesto [here](https://diem25.org/about-us/).</div>
+  </div>
+
+//TODO: add a database like functionality for updates - date and update tables, and pull data from there using a loop to display here.
+  -->
+
+  {% for entry in site.data.updates %}
+
+  <div class="updates_row">
+   <div class="updates_date">{{ entry.date }}</div>
+   <div class="updates_update">{{ entry.update }}</div>
+  </div>
+
+  {% endfor %}
 
 </div>

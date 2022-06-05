@@ -7,6 +7,7 @@ cover: https://cdn.myanimelist.net/images/anime/1509/117149l.jpg
 original-work: Natsume Shingo
 director: Natsume Shingo
 studio: Madhouse
+genre: Avant Garde, Mystery, Drama, Sci-Fi
 premiered: Summer 2021
 official-url: https://anime.shochiku.co.jp/sonny-boy/
 anidb: http://anidb.info/perl-bin/animedb.pl?show=anime&aid=16282
