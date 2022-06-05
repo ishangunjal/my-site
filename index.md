@@ -3,7 +3,7 @@ layout: home
 ---
 
 
-I am a graduate student from [Indian Institute of Space Science and Technology](https://iist.ac.in/) in the final year of the [Dual Degree program](https://iist.ac.in/admissions/undergraduate/dualdegree) (B.Tech. + M.S. in Solid State Physics). I am currently exploring research opportunities following the completion of the coursework.
+I graduated from the [Indian Institute of Space Science and Technology](https://iist.ac.in/) under the [Dual Degree program](https://iist.ac.in/admissions/undergraduate/dualdegree) (B.Tech. + MS in Solid State Physics). I am currently exploring research opportunities following the completion of the coursework.
 
 Academically, I am interested the mathematical formulation of physics, which I feel have a nice balance between mathematical rigor and applications on the physical side. To be honest, I was drawn in by the fancy looking words, how can you see [functorial quantum field theory](https://ncatlab.org/nlab/show/functorial%20field%20theory) and not want to learn more about it! I am still quite naive, and can't quite put my finger on a specific topic/subtopic I would like to work on, but here's to hoping that until I do, I remain curious, and curiosity doesn't kill the cat.
 
